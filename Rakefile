@@ -30,7 +30,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |s|
   s.name        = "yaml_form_helper"
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.authors     = ["Michael Gerber"]
   s.email       = ["mike@citrin.ch"]
   s.homepage    = "https://github.com/servasat/yaml_form_helper"
