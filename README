@@ -1,0 +1,34 @@
+YamlFormHelper
+==============
+
+The YamlFormHelper is a Rails Plugin that extends the FormBuilder Class with methods to create form tags for the HTML/CSS Framework YAML (http://www.yaml.de/)
+
+You might want to check out my compass plugin cyaml at https://github.com/servasat/cyaml
+
+
+Installation
+============
+
+Add this to your Gemfile
+
+  gem 'yaml_form_helper', :git => 'git://github.com/servasat/yaml_form_helper.git'-
+
+and run bundle install
+
+Now include it in your Helpers
+
+  module ApplicationHelper
+    include YamlFormHelper
+  end
+
+
+Example
+=======
+
+  <%= yaml_form_for(@bird) do |f| %>
+    <%= f.yaml_text_field :name %>
+    <%= f.yaml_submit %>
+  <% end %>
+
+
+Copyright (c) 2011 Michael Gerber, released under the MIT license
