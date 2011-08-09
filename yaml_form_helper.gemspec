@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "yaml_form_helper"
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.authors     = ["Michael Gerber"]
   s.email       = ["mike@citrin.ch"]
   s.homepage    = "https://github.com/servasat/yaml_form_helper"

@@ -1,4 +1,5 @@
 # YamlFormHelper
+require 'active_support/dependencies'
 require "yaml_form_helper/form_builder_ext"
 
 %w{ helpers }.each do |dir|
