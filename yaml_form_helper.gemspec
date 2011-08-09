@@ -29,7 +29,8 @@ Gem::Specification.new do |s|
     "rails/init.rb",
     "test/test_helper.rb",
     "test/yaml_form_helper_test.rb",
-    "uninstall.rb"
+    "uninstall.rb",
+    "yaml_form_helper.gemspec"
   ]
   s.homepage = %q{https://github.com/servasat/yaml_form_helper}
   s.require_paths = [%q{lib}]
