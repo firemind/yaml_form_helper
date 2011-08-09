@@ -11,7 +11,7 @@ Installation
 
 Add this to your Gemfile
 
-  gem 'yaml_form_helper', :git => 'git://github.com/servasat/yaml_form_helper.git'-
+  gem 'yaml_form_helper', :git => 'git://github.com/servasat/yaml_form_helper.git'
 
 and run bundle install
 
