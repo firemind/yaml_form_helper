@@ -21,11 +21,11 @@ ActionView::Helpers::FormBuilder.class_eval do
     yaml_tag self.password_field(attr), self.label(attr, label), has_errors(attr)
   end
 
-  def yaml_checkbox(attr, f, label = attr )
-    yaml_tag self.password_field(attr), self.label(attr, label), has_errors(attr), 'check'
+  def yaml_checkbox(attr, label = attr )
+    yaml_tag self.check_box(attr), self.label(attr, label), has_errors(attr), 'check'
   end
 
-  def yaml_select(attr, f, options, tag_options = {}, label = attr )
+  def yaml_select(attr, options, tag_options = {}, label = attr )
     yaml_tag self.select(attr, options, tag_options), self.label(attr, label), has_errors(attr), 'select'
   end
 
